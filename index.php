@@ -12,44 +12,14 @@
     <?php 
 include_once 'header.html'
     ?>
-<style type="text/css">
-    .product__item__pic{
-       border-radius: 10px;
-    }
-    .pic{
-       border-radius: 10px; 
-    }
 
-</style>
    
 <!-- Banner Section Begin -->
 <section class="banner set-bg" data-setbg="img/banner/bannerteste.jpg">
     <div class="container">
         <div class="row">
             <div class="col-xl-7 col-lg-8 m-auto">
-                <div class="banner__slider owl-carousel">
-                    <div class="banner__item">
-                        <div class="">
-                            <span>Mutual</span>
-                            <h1>Drop 2</h1>
-                            <a href="#">Comprar agora</a>
-                        </div>
-                    </div>
-                    <div class="banner__item">
-                        <div class="">
-                            <span>Mutual</span>
-                            <h1>Drop 2</h1>
-                            <a href="#">Comprar agora</a>
-                        </div>
-                    </div>
-                    <div class="banner__item">
-                        <div class="">
-                            <span>Mutual</span>
-                            <h1>Drop 2</h1>
-                            <a href="#">Comprar agora</a>
-                        </div>
-                    </div>
-                </div>
+             
             </div>
         </div>
     </div>
@@ -58,6 +28,7 @@ include_once 'header.html'
 <!-- Product Section Begin -->
 
 <center>
+    <div class="border-div">
     <hr>
 <h2>Produtos:</h2><br>
                 <div class="col-lg-9 col-md-9">
@@ -65,7 +36,7 @@ include_once 'header.html'
                         <div class="col-lg-4 col-md-6">
                             <div class="product__item">
                                 <div class="product__item__pic set-bg" data-setbg="img/shop/ninja.png">
-                                    <div class="label new">New</div>
+                                    
                                     <ul class="product__hover">
                                         <li><a href="img/shop/ninja.png" class="image-popup"><span class="arrow_expand"></span></a></li>
                                         <li><a href="#"><span class="icon_heart_alt"></span></a></li>
@@ -117,14 +88,14 @@ include_once 'header.html'
    
 
 <hr>
-
+<h2>Promoções:</h2><br>
 <!-- Discount Section Begin -->
 <section class="discount">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-4">
                 <div class="discount__pic">
-                    <img class="pic" src="img/shop/teste.jpg" alt="">
+                    <img class="pic" src="img/shop/PROMO_ninja001.jpg" alt="">
                 </div>
             </div>
             <div class="col-lg-6 col-md-4">
@@ -135,11 +106,80 @@ include_once 'header.html'
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        
 </section>
 <!-- Discount Section End -->
+<hr>
+<!-- Discount Section Begin 
+<section class="discount">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 ">
+                <div class="discount__pic">
+                    <img class="pic" src="img/shop/PROMO_ninja001.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 ">
+                <div class="discount__pic">
+                    <img class="pic" src="img/shop/PROMO_ninja001.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 ">
+                <div class="discount__pic">
+                    <img class="pic" src="img/shop/PROMO_ninja001.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-lg-3 ">
+                
+                         <div class="discount__pic">
+                    <img class="pic" src="img/shop/teste2.jpg" alt="">
+                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+<!-- Discount Section End -->
+<h2>Fotos:</h2><br>
+ <div class="row">
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/img1.jpg">
+                                    
+                                    <ul class="product__hover">
+                                        <li><a href="img/img1.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
+                                       
+                                    </ul>
+                                </div>
+                              
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/img2.jpg">
+                                    <ul class="product__hover">
+                                        <li><a href="img/img2" class="image-popup"><span class="arrow_expand"></span></a></li>
+                                       
+                                    </ul>
 
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/img3.jpg">
+                                    <ul class="product__hover">
+                                        <li><a href="img/img3" class="image-popup"><span class="arrow_expand"></span></a></li>
+                                        
+                                    </ul>
+                                </div>
+                                
+                               </div>
+                           </div>
+                       </div>
 <?php 
 include_once 'footer.html';
 ?>
+</div>
