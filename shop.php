@@ -21,9 +21,14 @@
     }
 
 </style>
+
     <div class="breadcrumb-option">
         <div class="container">
+                
+<div class="border-div">
             <div class="row">
+
+
                 <div class="col-lg-12">
                     <div class="breadcrumb__links">
                         <a href="./index.php"><i class="fa fa-home"></i> Home</a>
@@ -33,9 +38,10 @@
             </div>
         </div>
     </div>
-  
+  </div>
 <center>
     <hr>
+    <div class="border-div">
 <h2>Produtos:</h2><br>
                 <div class="col-lg-9 col-md-9">
                     <div class="row">
@@ -89,8 +95,25 @@
                                 </div>
                                </div>
                            </div>
-                       </div>
+                            <div class="col-lg-4 col-md-6">
+                            <div class="product__item">
+                                <div class="product__item__pic set-bg" data-setbg="img/shop/boi.jpg">
+                                    <ul class="product__hover">
+                                        <li><a href="img/shop/boi.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
+                                        <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                                        <li><a href="#"><span class="icon_bag_alt"></span></a></li>
+                                    </ul>
 
+                                </div>
+                                <div class="product__item__text">
+                                    <h6><a href="#">"Boicore"</a></h6>
+                                 
+                                    <div class="product__price">R$ 60.0</div>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+</div>
    
 
    

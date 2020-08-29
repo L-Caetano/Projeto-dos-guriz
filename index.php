@@ -39,7 +39,7 @@ include_once 'header.html'
                                     
                                     <ul class="product__hover">
                                         <li><a href="img/shop/ninja.png" class="image-popup"><span class="arrow_expand"></span></a></li>
-                                        <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                                        
                                         <li><a href="#"><span class="icon_bag_alt"></span></a></li>
                                     </ul>
                                 </div>
@@ -55,7 +55,7 @@ include_once 'header.html'
                                 <div class="product__item__pic set-bg" data-setbg="img/shop/boi.jpg">
                                     <ul class="product__hover">
                                         <li><a href="img/shop/boi.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
-                                        <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                                       
                                         <li><a href="#"><span class="icon_bag_alt"></span></a></li>
                                     </ul>
 
@@ -72,7 +72,7 @@ include_once 'header.html'
                                 <div class="product__item__pic set-bg" data-setbg="img/shop/caveira.jpg">
                                     <ul class="product__hover">
                                         <li><a href="img/shop/caveira.jpg" class="image-popup"><span class="arrow_expand"></span></a></li>
-                                        <li><a href="#"><span class="icon_heart_alt"></span></a></li>
+                                        
                                         <li><a href="#"><span class="icon_bag_alt"></span></a></li>
                                     </ul>
                                 </div>
